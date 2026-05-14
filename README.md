@@ -86,21 +86,21 @@ Original dataset obtained from Kaggle:
 
 ---
 
+## Key Insights
+
+- Average selling prices increased consistently over time.
+- Automatic vehicles tend to have higher selling prices.
+- Suzuki provides the best average fuel efficiency.
+- Petrol-powered vehicles dominate the market.
+- Engine size positively correlates with selling price.
+---
+
 ## Tools & Technologies
 - SQL
 - MySQL
 - Power BI
 ---
 
-## Demonstrated Skills
-- Aggregations
-- Window Functions
-- CASE Statements
-- Views
-- Business Analysis
-- Data Storytelling
-
----
 ## Example SQL Query
 
 ```sql
@@ -110,15 +110,6 @@ RANK() OVER(ORDER BY selling_price DESC) as TOP_5
 FROM car_sales
 LIMIT 5;
 ```
----
-
-## Key Insights
-
-- Average selling prices increased consistently over time.
-- Automatic vehicles tend to have higher selling prices.
-- Suzuki provides the best average fuel efficiency.
-- Petrol-powered vehicles dominate the market.
-- Engine size positively correlates with selling price.
 ---
 ## Project Structure
 
@@ -142,3 +133,15 @@ car-sales-sql-analysis/
 │
 └── README.md
 ```
+
+
+## Demonstrated Skills
+- Aggregations
+- Window Functions
+- CASE Statements
+- Views
+- Business Analysis
+- Data Storytelling
+
+---
+
