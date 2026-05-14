@@ -7,10 +7,60 @@ The analysis simulates a real-world business scenario where data is used to supp
 
 ---
 
+## Business Context
+
+### Fictional Company
+
+DriveIQ Motors is a company that operates a network of used-car dealerships across Latin America.
+
+The company collects information related to:
+
+- Vehicle brand
+- Model
+- Year
+- Selling price
+- Fuel type
+- Transmission type
+- Fuel efficiency
+- Engine size
+
+The executive team aims to leverage data to:
+
+- Identify which brands generate the highest value
+- Detect market trends
+- Optimize inventory decisions
+- Understand which vehicle characteristics increase prices
+
+As a Business Intelligence Analyst, the objective of this project is to transform raw data into actionable business insights using SQL and Power BI.
+
+---
+
+## Dataset
+
+Original dataset obtained from Kaggle:
+
+- [Car Sales Analysis Dataset - Kaggle](https://www.kaggle.com/datasets/jawadaahmed/car-sales-analysis-dataset?utm_source=chatgpt.com)
+
+---
+
+## Dataset Structure
+
+| Column | Description |
+|---|---|
+| Car_Name | Vehicle model |
+| Company | Manufacturer brand |
+| Year | Vehicle year |
+| Selling_Price | Vehicle selling price |
+| Fuel_Type | Fuel type |
+| Transmission | Transmission type |
+| Mileage | Fuel efficiency |
+| Engine_CC | Engine displacement |
+
 ## Objectives
 - Practice SQL in real-world business scenarios
 - Perform exploratory data analysis
 - Solve business-related questions
+- Practice data visualization
 - Build a professional portfolio project
 
 ---
@@ -60,6 +110,14 @@ LIMIT 5;
 ![Dashboard Preview](CarSalesPBI.png)
 
 ---
+
+## Key Insights
+
+- Average selling prices increased consistently over time.
+- Automatic vehicles tend to have higher selling prices.
+- Suzuki provides the best average fuel efficiency.
+- Petrol-powered vehicles dominate the market.
+- Engine size positively correlates with selling price.
 
 ## Project Structure
 
