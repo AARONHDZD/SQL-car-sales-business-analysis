@@ -1,5 +1,11 @@
 # SQL Car Sales Business Analysis
 
+## Dashboard Preview
+
+![Dashboard Preview](CarSalesPBI.png)
+
+---
+
 ## Overview
 This project focuses on automotive sales analysis using SQL to answer business questions and generate strategic insights from vehicle sales data.
 
@@ -106,12 +112,6 @@ LIMIT 5;
 ```
 ---
 
-## Dashboard Preview
-
-![Dashboard Preview](CarSalesPBI.png)
-
----
-
 ## Key Insights
 
 - Average selling prices increased consistently over time.
@@ -119,7 +119,7 @@ LIMIT 5;
 - Suzuki provides the best average fuel efficiency.
 - Petrol-powered vehicles dominate the market.
 - Engine size positively correlates with selling price.
-
+---
 ## Project Structure
 
 ```text
