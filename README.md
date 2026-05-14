@@ -56,6 +56,7 @@ Original dataset obtained from Kaggle:
 | Mileage | Fuel efficiency |
 | Engine_CC | Engine displacement |
 
+---
 ## Objectives
 - Practice SQL in real-world business scenarios
 - Perform exploratory data analysis
